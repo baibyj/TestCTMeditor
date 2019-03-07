@@ -18,6 +18,9 @@
 		26133F1B2230C30C00E7F6B2 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F1A2230C30C00E7F6B2 /* AViewController.m */; };
 		26133F1E2230C31C00E7F6B2 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F1D2230C31C00E7F6B2 /* BViewController.m */; };
 		26133F212230C32700E7F6B2 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F202230C32700E7F6B2 /* CViewController.m */; };
+		26133F272230C8D600E7F6B2 /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F262230C8D500E7F6B2 /* Target_B.m */; };
+		26133F2A2230C8E200E7F6B2 /* Target_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F292230C8E200E7F6B2 /* Target_C.m */; };
+		26133F2D2230CB2500E7F6B2 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F2C2230CB2500E7F6B2 /* Target_A.m */; };
 		9FD5FD11CD48B923CA9DDF67 /* libPods-TestCTMeditorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17265CE5BBBABB3B9CCE4163 /* libPods-TestCTMeditorUITests.a */; };
 		D485183912883BCA68834175 /* libPods-TestCTMeditorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E357E269703A77DF86F4183 /* libPods-TestCTMeditorTests.a */; };
 		EB8776C8FE89C9B28163F837 /* libPods-TestCTMeditor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 988079440AAB16B0064FD719 /* libPods-TestCTMeditor.a */; };
@@ -66,6 +69,12 @@
 		26133F1D2230C31C00E7F6B2 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		26133F1F2230C32700E7F6B2 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
 		26133F202230C32700E7F6B2 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		26133F252230C8D500E7F6B2 /* Target_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
+		26133F262230C8D500E7F6B2 /* Target_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
+		26133F282230C8E200E7F6B2 /* Target_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_C.h; sourceTree = "<group>"; };
+		26133F292230C8E200E7F6B2 /* Target_C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_C.m; sourceTree = "<group>"; };
+		26133F2B2230CB2500E7F6B2 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		26133F2C2230CB2500E7F6B2 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 		372910042CCA7E78F395FC16 /* Pods-TestCTMeditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCTMeditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCTMeditor/Pods-TestCTMeditor.release.xcconfig"; sourceTree = "<group>"; };
 		40397EF901D5CC4EB6C2D488 /* Pods-TestCTMeditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCTMeditorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCTMeditorUITests/Pods-TestCTMeditorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		76B4294768F06908E674A4D6 /* Pods-TestCTMeditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCTMeditorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCTMeditorTests/Pods-TestCTMeditorTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +175,8 @@
 			children = (
 				26133F1C2230C31C00E7F6B2 /* BViewController.h */,
 				26133F1D2230C31C00E7F6B2 /* BViewController.m */,
+				26133F252230C8D500E7F6B2 /* Target_B.h */,
+				26133F262230C8D500E7F6B2 /* Target_B.m */,
 			);
 			path = B;
 			sourceTree = SOURCE_ROOT;
@@ -175,6 +186,8 @@
 			children = (
 				26133F192230C30C00E7F6B2 /* AViewController.h */,
 				26133F1A2230C30C00E7F6B2 /* AViewController.m */,
+				26133F2B2230CB2500E7F6B2 /* Target_A.h */,
+				26133F2C2230CB2500E7F6B2 /* Target_A.m */,
 			);
 			path = A;
 			sourceTree = SOURCE_ROOT;
@@ -184,6 +197,8 @@
 			children = (
 				26133F1F2230C32700E7F6B2 /* CViewController.h */,
 				26133F202230C32700E7F6B2 /* CViewController.m */,
+				26133F282230C8E200E7F6B2 /* Target_C.h */,
+				26133F292230C8E200E7F6B2 /* Target_C.m */,
 			);
 			path = C;
 			sourceTree = SOURCE_ROOT;
@@ -413,9 +428,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26133F2A2230C8E200E7F6B2 /* Target_C.m in Sources */,
 				26133F1B2230C30C00E7F6B2 /* AViewController.m in Sources */,
 				26133EE92230BCE400E7F6B2 /* ViewController.m in Sources */,
 				26133F212230C32700E7F6B2 /* CViewController.m in Sources */,
+				26133F2D2230CB2500E7F6B2 /* Target_A.m in Sources */,
+				26133F272230C8D600E7F6B2 /* Target_B.m in Sources */,
 				26133EF42230BCE500E7F6B2 /* main.m in Sources */,
 				26133F1E2230C31C00E7F6B2 /* BViewController.m in Sources */,
 				26133EE62230BCE400E7F6B2 /* AppDelegate.m in Sources */,

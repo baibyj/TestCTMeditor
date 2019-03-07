@@ -7,9 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "AViewController.h"
-#import "BViewController.h"
-#import "CViewController.h"
+
+#import "CTMediator.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -52,7 +51,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (0 == indexPath.section) {
-        AViewController *controller = [[AViewController alloc] init];
+        UIViewController *controller = [[CTMediator sharedInstance] performTarget:@"A" action:@"pushController" params:nil shouldCacheTarget:NO];
         
         [self.navigationController pushViewController:controller animated:YES];
         
@@ -60,16 +59,16 @@
     }
     
     if (1 == indexPath.section) {
-        BViewController *controller = [[BViewController alloc] init];
-        
+        UIViewController *controller = [[CTMediator sharedInstance] performTarget:@"B" action:@"pushController" params:nil shouldCacheTarget:NO];
+
         [self.navigationController pushViewController:controller animated:YES];
         
         return;
     }
     
     if (2 == indexPath.section) {
-        CViewController *controller = [[CViewController alloc] init];
-        
+        UIViewController *controller = [[CTMediator sharedInstance] performTarget:@"C" action:@"pushController" params:nil shouldCacheTarget:NO];
+
         [self.navigationController pushViewController:controller animated:YES];
         
         return;
