@@ -15,6 +15,12 @@
 		26133EF42230BCE500E7F6B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133EF32230BCE500E7F6B2 /* main.m */; };
 		26133EFE2230BCE500E7F6B2 /* TestCTMeditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133EFD2230BCE500E7F6B2 /* TestCTMeditorTests.m */; };
 		26133F092230BCE500E7F6B2 /* TestCTMeditorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F082230BCE500E7F6B2 /* TestCTMeditorUITests.m */; };
+		26133F1B2230C30C00E7F6B2 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F1A2230C30C00E7F6B2 /* AViewController.m */; };
+		26133F1E2230C31C00E7F6B2 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F1D2230C31C00E7F6B2 /* BViewController.m */; };
+		26133F212230C32700E7F6B2 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26133F202230C32700E7F6B2 /* CViewController.m */; };
+		9FD5FD11CD48B923CA9DDF67 /* libPods-TestCTMeditorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17265CE5BBBABB3B9CCE4163 /* libPods-TestCTMeditorUITests.a */; };
+		D485183912883BCA68834175 /* libPods-TestCTMeditorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E357E269703A77DF86F4183 /* libPods-TestCTMeditorTests.a */; };
+		EB8776C8FE89C9B28163F837 /* libPods-TestCTMeditor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 988079440AAB16B0064FD719 /* libPods-TestCTMeditor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17265CE5BBBABB3B9CCE4163 /* libPods-TestCTMeditorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCTMeditorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E357E269703A77DF86F4183 /* libPods-TestCTMeditorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCTMeditorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25ADFE82D8B17F2D9BBCE744 /* Pods-TestCTMeditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCTMeditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCTMeditor/Pods-TestCTMeditor.debug.xcconfig"; sourceTree = "<group>"; };
 		26133EE12230BCE400E7F6B2 /* TestCTMeditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCTMeditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26133EE42230BCE400E7F6B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26133EE52230BCE400E7F6B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,18 @@
 		26133F042230BCE500E7F6B2 /* TestCTMeditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCTMeditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26133F082230BCE500E7F6B2 /* TestCTMeditorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCTMeditorUITests.m; sourceTree = "<group>"; };
 		26133F0A2230BCE500E7F6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26133F192230C30C00E7F6B2 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		26133F1A2230C30C00E7F6B2 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		26133F1C2230C31C00E7F6B2 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		26133F1D2230C31C00E7F6B2 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		26133F1F2230C32700E7F6B2 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		26133F202230C32700E7F6B2 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		372910042CCA7E78F395FC16 /* Pods-TestCTMeditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCTMeditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCTMeditor/Pods-TestCTMeditor.release.xcconfig"; sourceTree = "<group>"; };
+		40397EF901D5CC4EB6C2D488 /* Pods-TestCTMeditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCTMeditorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCTMeditorUITests/Pods-TestCTMeditorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76B4294768F06908E674A4D6 /* Pods-TestCTMeditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCTMeditorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCTMeditorTests/Pods-TestCTMeditorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		988079440AAB16B0064FD719 /* libPods-TestCTMeditor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestCTMeditor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1DB719BADBE211893E6EE6 /* Pods-TestCTMeditorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCTMeditorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCTMeditorTests/Pods-TestCTMeditorTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEA2E434F6684B6C6B4033CB /* Pods-TestCTMeditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCTMeditorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCTMeditorUITests/Pods-TestCTMeditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8776C8FE89C9B28163F837 /* libPods-TestCTMeditor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D485183912883BCA68834175 /* libPods-TestCTMeditorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD5FD11CD48B923CA9DDF67 /* libPods-TestCTMeditorUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,8 @@
 				26133EFC2230BCE500E7F6B2 /* TestCTMeditorTests */,
 				26133F072230BCE500E7F6B2 /* TestCTMeditorUITests */,
 				26133EE22230BCE400E7F6B2 /* Products */,
+				49431BA3B1CC0E7569DA6C7B /* Pods */,
+				79C961D9589802484AFE894C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +127,9 @@
 		26133EE32230BCE400E7F6B2 /* TestCTMeditor */ = {
 			isa = PBXGroup;
 			children = (
+				26133F172230C2F400E7F6B2 /* A */,
+				26133F162230C2F400E7F6B2 /* B */,
+				26133F182230C2F400E7F6B2 /* C */,
 				26133EE42230BCE400E7F6B2 /* AppDelegate.h */,
 				26133EE52230BCE400E7F6B2 /* AppDelegate.m */,
 				26133EE72230BCE400E7F6B2 /* ViewController.h */,
@@ -132,6 +161,56 @@
 			path = TestCTMeditorUITests;
 			sourceTree = "<group>";
 		};
+		26133F162230C2F400E7F6B2 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				26133F1C2230C31C00E7F6B2 /* BViewController.h */,
+				26133F1D2230C31C00E7F6B2 /* BViewController.m */,
+			);
+			path = B;
+			sourceTree = SOURCE_ROOT;
+		};
+		26133F172230C2F400E7F6B2 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				26133F192230C30C00E7F6B2 /* AViewController.h */,
+				26133F1A2230C30C00E7F6B2 /* AViewController.m */,
+			);
+			path = A;
+			sourceTree = SOURCE_ROOT;
+		};
+		26133F182230C2F400E7F6B2 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				26133F1F2230C32700E7F6B2 /* CViewController.h */,
+				26133F202230C32700E7F6B2 /* CViewController.m */,
+			);
+			path = C;
+			sourceTree = SOURCE_ROOT;
+		};
+		49431BA3B1CC0E7569DA6C7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25ADFE82D8B17F2D9BBCE744 /* Pods-TestCTMeditor.debug.xcconfig */,
+				372910042CCA7E78F395FC16 /* Pods-TestCTMeditor.release.xcconfig */,
+				76B4294768F06908E674A4D6 /* Pods-TestCTMeditorTests.debug.xcconfig */,
+				AE1DB719BADBE211893E6EE6 /* Pods-TestCTMeditorTests.release.xcconfig */,
+				EEA2E434F6684B6C6B4033CB /* Pods-TestCTMeditorUITests.debug.xcconfig */,
+				40397EF901D5CC4EB6C2D488 /* Pods-TestCTMeditorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79C961D9589802484AFE894C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				988079440AAB16B0064FD719 /* libPods-TestCTMeditor.a */,
+				1E357E269703A77DF86F4183 /* libPods-TestCTMeditorTests.a */,
+				17265CE5BBBABB3B9CCE4163 /* libPods-TestCTMeditorUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26133F0D2230BCE500E7F6B2 /* Build configuration list for PBXNativeTarget "TestCTMeditor" */;
 			buildPhases = (
+				D3E723E0DE2250CBA362D1F9 /* [CP] Check Pods Manifest.lock */,
 				26133EDD2230BCE400E7F6B2 /* Sources */,
 				26133EDE2230BCE400E7F6B2 /* Frameworks */,
 				26133EDF2230BCE400E7F6B2 /* Resources */,
@@ -156,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26133F102230BCE500E7F6B2 /* Build configuration list for PBXNativeTarget "TestCTMeditorTests" */;
 			buildPhases = (
+				D408E8F33C41B7692E7B732B /* [CP] Check Pods Manifest.lock */,
 				26133EF52230BCE500E7F6B2 /* Sources */,
 				26133EF62230BCE500E7F6B2 /* Frameworks */,
 				26133EF72230BCE500E7F6B2 /* Resources */,
@@ -174,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26133F132230BCE500E7F6B2 /* Build configuration list for PBXNativeTarget "TestCTMeditorUITests" */;
 			buildPhases = (
+				A04C52F67A6323E2BCD65EFA /* [CP] Check Pods Manifest.lock */,
 				26133F002230BCE500E7F6B2 /* Sources */,
 				26133F012230BCE500E7F6B2 /* Frameworks */,
 				26133F022230BCE500E7F6B2 /* Resources */,
@@ -257,13 +339,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A04C52F67A6323E2BCD65EFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCTMeditorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E723E0DE2250CBA362D1F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCTMeditor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D408E8F33C41B7692E7B732B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCTMeditorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26133EDD2230BCE400E7F6B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26133F1B2230C30C00E7F6B2 /* AViewController.m in Sources */,
 				26133EE92230BCE400E7F6B2 /* ViewController.m in Sources */,
+				26133F212230C32700E7F6B2 /* CViewController.m in Sources */,
 				26133EF42230BCE500E7F6B2 /* main.m in Sources */,
+				26133F1E2230C31C00E7F6B2 /* BViewController.m in Sources */,
 				26133EE62230BCE400E7F6B2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +587,7 @@
 		};
 		26133F0E2230BCE500E7F6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25ADFE82D8B17F2D9BBCE744 /* Pods-TestCTMeditor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +604,7 @@
 		};
 		26133F0F2230BCE500E7F6B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372910042CCA7E78F395FC16 /* Pods-TestCTMeditor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +621,7 @@
 		};
 		26133F112230BCE500E7F6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B4294768F06908E674A4D6 /* Pods-TestCTMeditorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +640,7 @@
 		};
 		26133F122230BCE500E7F6B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1DB719BADBE211893E6EE6 /* Pods-TestCTMeditorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +659,7 @@
 		};
 		26133F142230BCE500E7F6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA2E434F6684B6C6B4033CB /* Pods-TestCTMeditorUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestCTMeditorUITests/Info.plist;
@@ -518,6 +677,7 @@
 		};
 		26133F152230BCE500E7F6B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40397EF901D5CC4EB6C2D488 /* Pods-TestCTMeditorUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestCTMeditorUITests/Info.plist;
