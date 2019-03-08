@@ -1,0 +1,28 @@
+PODS:
+  - CTMediator (25)
+  - ModuleA (0.0.1)
+  - ModuleC (0.0.1)
+
+DEPENDENCIES:
+  - CTMediator
+  - ModuleA (from `../../A`)
+  - ModuleC (from `../../C`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  ModuleA:
+    :path: "../../A"
+  ModuleC:
+    :path: "../../C"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  ModuleA: 5674313c810fad586ed5a9794ee25379838dcf61
+  ModuleC: ea271cb5e659fa3982500f8f77e232595d40a0f7
+
+PODFILE CHECKSUM: f7513200cee440b95d4407cbfeb4b831114750ec
+
+COCOAPODS: 1.5.3

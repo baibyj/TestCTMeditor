@@ -7,6 +7,7 @@
 //
 
 #import "AViewController.h"
+#import "CTMediator.h"
 
 @interface AViewController ()
 
@@ -20,16 +21,29 @@
     self.title = @"A--Controller";
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [button setTitle:@"B" forState:UIControlStateNormal];
+    
+    [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    button.backgroundColor = [UIColor blueColor];
+    
+    button.frame = CGRectMake(0, 0, 100, 50);
+    
+    button.center = self.view.center;
+    
+    [self.view addSubview:button];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)buttonClick{
+    
+    UIViewController *controller = [[CTMediator sharedInstance] performTarget:@"B" action:@"pushController" params:nil shouldCacheTarget:NO];
+    
+    [self.navigationController pushViewController:controller animated:YES];
+    
+    return;
 }
-*/
 
 @end

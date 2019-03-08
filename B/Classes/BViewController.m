@@ -7,6 +7,7 @@
 //
 
 #import "BViewController.h"
+#import "CTMediator.h"
 
 @interface BViewController ()
 
@@ -20,6 +21,29 @@
     self.title = @"B--Controller";
     
     self.view.backgroundColor = [UIColor grayColor];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [button setTitle:@"A" forState:UIControlStateNormal];
+    
+    [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    button.backgroundColor = [UIColor blueColor];
+    
+    button.frame = CGRectMake(0, 0, 100, 50);
+    
+    button.center = self.view.center;
+    
+    [self.view addSubview:button];
+}
+    
+- (void)buttonClick{
+    
+    UIViewController *controller = [[CTMediator sharedInstance] performTarget:@"A" action:@"pushController" params:nil shouldCacheTarget:NO];
+    
+    [self.navigationController pushViewController:controller animated:YES];
+    
+    return;
 }
 
 /*
