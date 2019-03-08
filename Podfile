@@ -7,6 +7,13 @@ target 'TestCTMeditor' do
 
   # Pods for TestCTMeditor
   pod 'CTMediator'
+  
+  pod 'ModuleA', :path =>'./A'
+  
+  pod 'ModuleB', :path =>'./B'
+  
+  pod 'ModuleC', :path =>'./C'
+
   target 'TestCTMeditorTests' do
     inherit! :search_paths
     # Pods for testing

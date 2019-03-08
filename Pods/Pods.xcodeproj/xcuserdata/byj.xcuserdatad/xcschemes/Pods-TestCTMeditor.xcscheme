@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3BDF0EC3D4935DD4C8A40C2F0998975"
+               BlueprintIdentifier = "9A9C6BF4094A4F7753CE5255FF759310"
                BlueprintName = "Pods-TestCTMeditor"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-TestCTMeditor.a">
