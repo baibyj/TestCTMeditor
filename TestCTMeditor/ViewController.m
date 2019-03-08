@@ -10,6 +10,8 @@
 
 #import "CTMediator.h"
 
+#import <ModuleAcategory/CTMediator+ModuleA.h>
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
@@ -51,7 +53,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (0 == indexPath.section) {
-        UIViewController *controller = [[CTMediator sharedInstance] performTarget:@"A" action:@"pushController" params:nil shouldCacheTarget:NO];
+        
+        UIViewController *controller = [[CTMediator sharedInstance] moduleAController];
         
         [self.navigationController pushViewController:controller animated:YES];
         

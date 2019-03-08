@@ -8,6 +8,8 @@ target 'TestCTMeditor' do
   # Pods for TestCTMeditor
   pod 'CTMediator'
   
+  pod 'ModuleAcategory', :path => './Acategory'
+  
   pod 'ModuleA', :path =>'./A'
   
   pod 'ModuleB', :path =>'./B'

@@ -18,40 +18,47 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>ModuleB.xcscheme</key>
+		<key>ModuleAcategory.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>ModuleC.xcscheme</key>
+		<key>ModuleB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-TestCTMeditor.xcscheme</key>
+		<key>ModuleC.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>Pods-TestCTMeditorTests.xcscheme</key>
+		<key>Pods-TestCTMeditor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>Pods-TestCTMeditorUITests.xcscheme</key>
+		<key>Pods-TestCTMeditorTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>Pods-TestCTMeditorUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3A01D039F88B180916DF1D373530F6F"
-               BlueprintName = "Pods-TestCTMeditor"
+               BlueprintIdentifier = "EC9C2E226206A0AD5445A6F6483F02DF"
+               BlueprintName = "ModuleAcategory"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-TestCTMeditor.a">
+               BuildableName = "libModuleAcategory.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
