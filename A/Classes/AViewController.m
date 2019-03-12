@@ -38,7 +38,6 @@
 }
 
 - (void)buttonClick{
-    
     UIViewController *controller = [[CTMediator sharedInstance] performTarget:@"B" action:@"pushController" params:nil shouldCacheTarget:NO];
     
     [self.navigationController pushViewController:controller animated:YES];

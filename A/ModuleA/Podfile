@@ -7,11 +7,15 @@ target 'ModuleA' do
 
   # Pods for ModuleA
   pod 'CTMediator'
-  
+
   pod 'ModuleC', :path =>'../../C'
   
   pod 'ModuleB', :path =>'../../B'
 
+  target 'DynamicModuleA' do
+      
+  end
+  
   target 'ModuleATests' do
     inherit! :search_paths
     # Pods for testing
