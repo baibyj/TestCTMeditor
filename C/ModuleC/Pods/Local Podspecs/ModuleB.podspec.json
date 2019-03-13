@@ -1,0 +1,28 @@
+{
+  "name": "ModuleB",
+  "version": "0.0.1",
+  "summary": "A short description of ModuleB.",
+  "description": "测试模块B",
+  "homepage": "http://EXAMPLE/ModuleB",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "byj": "baiyongjianbyj@163.com"
+  },
+  "source": {
+    "git": "http://byj/ModuleB.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "./Classes/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

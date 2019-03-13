@@ -11,10 +11,6 @@ target 'ModuleA' do
   pod 'ModuleC', :path =>'../../C'
   
   pod 'ModuleB', :path =>'../../B'
-
-  target 'DynamicModuleA' do
-      
-  end
   
   target 'ModuleATests' do
     inherit! :search_paths

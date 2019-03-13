@@ -7,7 +7,6 @@
 //
 
 #import "AViewController.h"
-#import "CTMediator.h"
 
 @interface AViewController ()
 
@@ -38,9 +37,45 @@
 }
 
 - (void)buttonClick{
-    UIViewController *controller = [[CTMediator sharedInstance] performTarget:@"B" action:@"pushController" params:nil shouldCacheTarget:NO];
+    Class mediatorClass = NSClassFromString(@"CTMediator");
     
-    [self.navigationController pushViewController:controller animated:YES];
+    id mediator = [[mediatorClass alloc] init];
+    
+    NSMethodSignature *shareInstanceSignature = [mediatorClass instanceMethodSignatureForSelector:@selector(performTarget:action:params:shouldCacheTarget:)];
+    
+    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:shareInstanceSignature];
+    
+    [invocation setTarget:mediator];
+    
+    [invocation setSelector:@selector(performTarget:action:params:shouldCacheTarget:)];
+    
+    NSString *module = @"B";
+    
+    [invocation setArgument:&module atIndex:2];
+    
+    NSString *action = @"pushController";
+    
+    [invocation setArgument:&action atIndex:3];
+    
+    NSDictionary *dict = [NSDictionary dictionary];
+    
+    [invocation setArgument:&dict atIndex:4];
+    
+    NSNumber *number = @(NO);
+    
+    [invocation setArgument:&number atIndex:5];
+    
+    [invocation invoke];
+    
+    void *tempController;
+
+    [invocation getReturnValue:&tempController];
+    
+    [self.navigationController pushViewController:(__bridge UIViewController *)tempController animated:YES];
+    
+//    UIViewController *controller = [[CTMediator sharedInstance] performTarget:@"B" action:@"pushController" params:nil shouldCacheTarget:NO];
+//
+//    [self.navigationController pushViewController:controller animated:YES];
     
     return;
 }

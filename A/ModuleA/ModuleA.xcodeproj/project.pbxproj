@@ -27,7 +27,6 @@
 		2AC16692E359FFDDDC1DCE6E /* libPods-ModuleAUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A489CB0669F67D93A16565A8 /* libPods-ModuleAUITests.a */; };
 		428CB74FB632CEFFB8EB9EAE /* libPods-ModuleATests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D1452DD999C842B4381262 /* libPods-ModuleATests.a */; };
 		937D96D882B87875AC604CE0 /* libPods-ModuleA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B76BD70E4F212CB4F3B936 /* libPods-ModuleA.a */; };
-		C470A97B719EB8622590AEA9 /* libPods-ModuleA-DynamicModuleA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3097ED5163D370FFE4860058 /* libPods-ModuleA-DynamicModuleA.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,10 +116,8 @@
 		9A9C7760097E641B9B4CC003 /* Pods-ModuleAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleAUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleAUITests/Pods-ModuleAUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A489CB0669F67D93A16565A8 /* libPods-ModuleAUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleAUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D1452DD999C842B4381262 /* libPods-ModuleATests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleATests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D22C1083874BFC6EEE3225A6 /* Pods-ModuleA-DynamicModuleA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleA-DynamicModuleA.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleA-DynamicModuleA/Pods-ModuleA-DynamicModuleA.release.xcconfig"; sourceTree = "<group>"; };
 		D2A521D1674C831FE7187736 /* Pods-ModuleA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleA/Pods-ModuleA.debug.xcconfig"; sourceTree = "<group>"; };
 		E3B76BD70E4F212CB4F3B936 /* libPods-ModuleA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFEF685ED94EAB65763F3D15 /* Pods-ModuleA-DynamicModuleA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleA-DynamicModuleA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleA-DynamicModuleA/Pods-ModuleA-DynamicModuleA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +125,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C470A97B719EB8622590AEA9 /* libPods-ModuleA-DynamicModuleA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +275,6 @@
 				1E97E0AE462E557FAB7F8058 /* Pods-ModuleATests.release.xcconfig */,
 				79235541835E0B92356B6D50 /* Pods-ModuleAUITests.debug.xcconfig */,
 				9A9C7760097E641B9B4CC003 /* Pods-ModuleAUITests.release.xcconfig */,
-				EFEF685ED94EAB65763F3D15 /* Pods-ModuleA-DynamicModuleA.debug.xcconfig */,
-				D22C1083874BFC6EEE3225A6 /* Pods-ModuleA-DynamicModuleA.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -305,7 +299,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2615BEDA22377F4E009ED6A7 /* Build configuration list for PBXNativeTarget "DynamicModuleA" */;
 			buildPhases = (
-				2E9774BF128CE13D70EE8933 /* [CP] Check Pods Manifest.lock */,
 				2615BEBA22377F4E009ED6A7 /* Headers */,
 				2615BEBB22377F4E009ED6A7 /* Sources */,
 				2615BEBC22377F4E009ED6A7 /* Frameworks */,
@@ -490,28 +483,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E9774BF128CE13D70EE8933 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ModuleA-DynamicModuleA-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5BFF4EE5DF03C135CDFECE1A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -676,7 +647,6 @@
 /* Begin XCBuildConfiguration section */
 		2615BED622377F4E009ED6A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFEF685ED94EAB65763F3D15 /* Pods-ModuleA-DynamicModuleA.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -705,7 +675,6 @@
 		};
 		2615BED722377F4E009ED6A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D22C1083874BFC6EEE3225A6 /* Pods-ModuleA-DynamicModuleA.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
